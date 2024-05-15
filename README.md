@@ -1,15 +1,57 @@
-# 8-1-Journal
-•	What was the problem you were solving in the projects for this course?
-o	In this course projects, I was solving problems for ABC University. The main issues I tackled were about creating smart ways to handle data and solve tricky problems (algorithms and data structures) using computers. 
-•	How did you approach the problem? Consider why data structures are important to understand.
-o	 Coming up with Plans: I made plans called algorithms to solve tough problems that ABC University might face.
-o	Choosing the Right Tools: I looked at different ways to organize and store information, picking the best methods for ABC University's needs.
-o	Building the Software: After planning, I put my  ideas into action by writing computer code to make the solutions work.
-o	Fixing Real Problems: Overall, I  aimed to use my skills to help ABC University run smoother by solving practical problems they might encounter.
-•	How did you overcome any roadblocks you encountered while going through the activities or project?
-o	When I hit obstacles during the activities or projects, I stayed patient and kept my enthusiasm up. I understood that taking a break and giving my mind some rest was important. By doing this, I could come back with a clear head and solve the problem better.
-•	How has your work on this project expanded your approach to designing software and developing programs?
-o	
-Working on this project has made me think about designing software and writing programs in new ways. It's helped me become more creative and flexible in finding solutions to problems.
-•	How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-o	Through this project, I've learned to write programs in ways that make them easier to manage, understand, and modify. This means I now focus more on organizing my code neatly, using clear language and structures that anyone can follow, and building flexibility into my programs so they can adapt to different needs easily.
+# CoursePlanner
+
+CoursePlanner is a simple command-line program written in C++ for managing course information. It allows users to load data from a file, display course information alphabetically, and retrieve details about specific courses.
+
+## Features
+
+- Load course data from a file.
+- Display course information in alphabetical order.
+- Retrieve information about a specific course.
+- Error handling for invalid user inputs.
+
+## Getting Started
+
+### Prerequisites
+
+To run CoursePlanner, you need:
+
+- C++ compiler (supporting C++11 or later)
+- [Git](https://git-scm.com/) (for cloning the repository)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/username/CoursePlanner.git
+   
+## Usage
+
+1. **Navigate to the project directory:**
+
+    ```bash
+    cd CoursePlanner
+    ```
+
+2. **Compile the code:**
+
+    ```bash
+    g++ -o course_planner course_planner.cpp course_functions.cpp -std=c++11
+    ```
+
+3. **Place the file `course_data.txt` containing course data in the project directory.**
+
+4. **Run the compiled executable:**
+
+    ```bash
+    ./course_planner course_data.txt
+    ```
+
+    Replace `course_data.txt` with the name of the file containing course data.
+
+5. **Follow the on-screen menu to perform desired actions:**
+
+    - Option 1: Load Data Structure
+    - Option 2: Print Course information in alphabetical order
+    - Option 3: Print information for a specific course
+    - Option 9: Exit
