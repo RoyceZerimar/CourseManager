@@ -1,6 +1,6 @@
-# CoursePlanner
+# CourseManager
 
-CoursePlanner is a simple command-line program written in C++ for managing course information. It allows users to load data from a file, display course information alphabetically, and retrieve details about specific courses.
+CourseManager is a simple command-line program written in C++ for managing course information. It allows users to load data from a file, display course information alphabetically, and retrieve details about specific courses.
 
 ## Features
 
@@ -13,7 +13,7 @@ CoursePlanner is a simple command-line program written in C++ for managing cours
 
 ### Prerequisites
 
-To run CoursePlanner, you need:
+To run CourseManager, you need:
 
 - C++ compiler (supporting C++11 or later)
 - [Git](https://git-scm.com/) (for cloning the repository)
@@ -23,7 +23,7 @@ To run CoursePlanner, you need:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/CoursePlanner.git
+   git clone https://github.com/RoyceZerimar/CourseManager.git
    
 ## Usage
 
